@@ -13,7 +13,7 @@
 
 - 既存のコマンドを削除して再取得してデプロイしたい場合はDELETE_EXISTING_COMMANDSフラグを**true**にする
 - インテントを追加したい場合は[**ドキュメント**](https://discord-api-types.dev/api/discord-api-types-v10/enum/GatewayIntentBits)を参照
-- Node.js v20.6.0以上ではdotenvパッケージが**不要**らしいので修正が必要。具体的には`require('dotenv').config()`を削除して実行時にフラグする`node --env-file=.env app.js
+- Node.js v20.6.0以上ではdotenvパッケージが**不要**らしいので修正が必要。具体的には`require('dotenv').config()`を削除して実行時にフラグする`node --env-file=.env app.js`
 - .envのTOKENはボットのトークン。[ここから取得してくる](https://discord.com/developers/applications)
 - .envのCLIENT_IDはボットのユーザーID。
 - .envのGUILD_IDはボットを導入しているサーバーのID。
